@@ -1,0 +1,83 @@
+#anonimatoColor{
+      color: #818181;
+}
+#azul{
+    height: 290px;
+    width: 520px;
+    margin-left: 320px;
+}
+
+#bandejaEntrada{
+      margin-left: 400px;
+      width: 50%;
+}
+
+#button{
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-size: 19px;
+}
+
+#caja{
+
+    margin: 0px;
+    width: 1113px;
+    height: 93px;
+    border-radius: 5px;
+    width: 1137px;
+    height: 86px;
+}
+
+#color{
+    color: white;
+    background-color: black;
+}
+
+#error{
+    height: 50px;
+    width: 410px;
+}
+
+#formulario{
+    margin-left: 320px;
+
+}
+.form-control{
+    width: 50%;
+}
+
+#login{
+    margin-left: 320px;
+}
+#loguear
+{
+margin-left: 3px;
+margin-right: 410px;
+}
+#mensajerespuesta{
+    margin-left: 320px; 
+}
+.opciones{
+    color: #818181;
+}
+.opcionesVar{
+      color: #818181;
+}
+
+#registro{
+    margin-left: 320px;
+}
+
+
+#tituloFormulario{
+    color: #818181;
+
+
+}
+
+
+
+
+
+

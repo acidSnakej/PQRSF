@@ -1,0 +1,45 @@
+Version 1.0 // Ultima actualizacion 11/julio/2015
+PROYECTO PQRSD
+
+implementaciones:
+
+- Código en HTML, PHP y jquery
+- Manejo de plantillas
+- Implementación de  carpetas
+
+HTML
+- Creación de formularios simples
+
+PHP
+- Creación de plantillas
+- Creación de clase DBManager.php  //Conexion y consulta en base de datos.
+- Uso de clase para mostrar la opciones de solicitudes PQRSD y  tipo de usuario  // Estudiante, Egresado ...
+
+Jquery
+- script anonimo.js   // Oculta nombre y apellido
+
+NOTA 
+Comenzamos a implementar programacion a objetos y Jquery  se recomienda practicar los diferentes 
+lenguajes que se han implementado en el proyecto.
+
+ 
+
+Actualización 13 junio 2015
+===========================
+HTML
+-Se implementa de nuevo las opciones de perfil (Estudiante,Particular...)
+
+JQuery
+-Se agrega animación simple que elimina o reaparece los campos de Nombre y Apellido (Anonimato)
+
+PHP
+-Se optimiza el código y la clase DBManager.php
+Mejoras:
+        -Limpieza de código repetitivo en las pruebas
+        -Se usan condiciones para el método insert 
+        -Se elimina la opción de ver los perfiles con base de datos
+        
+NOTA
+Recordar que para las funciones Msqli como consulta o inserción de datos usar las siguientes sintasis
+INSERT = mysqli_query();
+Consultas = mysqli_select_db(); seguido del mysqli_query();

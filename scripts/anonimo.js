@@ -1,0 +1,33 @@
+$(document).ready(function(){
+    $("#anonimo").click(function(){
+        if(this.value == 1)
+        {
+                $("#nombre").fadeOut(0);
+                $("#apellido").fadeOut(0);
+                $("#email").fadeOut(0);
+                $(".opcionesVar").fadeOut(0);
+                $("#documento").fadeOut(0);
+                $("#telefono").fadeOut(0);
+                $("#nombre").val("anonimo");
+                $("#apellido").val("anonimo");
+                $("#email").val("anonimoitfip@itfip.edu.co");
+                $("#documento").val("111111");
+                $("#telefono").val("11111");
+        }
+        else
+        {
+                $("#nombre").fadeIn(0);
+                $("#apellido").fadeIn(0);
+                $("#email").fadeIn(0);
+                $(".opcionesVar").fadeIn(0);
+                $("#documento").fadeIn(0);
+                $("#telefono").fadeIn(0);
+                $("#nombre").val("");
+                $("#apellido").val("");
+                $("#email").val("");
+                $("#documento").val("");
+                $("#telefono").val("");
+        }
+    });
+});
+
